@@ -43,3 +43,12 @@ year = prompt("Какой сейчас год?", "")
 vis = (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? true : false;
 console.log(`${year}: ${vis}`)
 console.log('\n')
+
+/* Задание 5 */
+console.log('Задание 5, Проверка');
+let x = prompt('Введите 1-е число:');
+let y = prompt('Введите 2-е число:');
+res=(x == 10 || y == 10 || x + y == 10) ? true: false;
+console.log(`${res}`);
+
+
