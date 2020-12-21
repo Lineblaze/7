@@ -26,3 +26,11 @@ console.log(`Площадь = ${a * b}`);
 console.log(`Периметр = ${(a + b) * 2}`);
 console.log(`Отношение площади к периметру = ${a * b / ((a + b) * 2)}`);
 console.log('\n')
+
+/* Задание 3 */
+console.log('Задание 3, Конвертация единиц измерения');
+let c = 25;
+let f = 87;
+console.log(`${c} C\u{00B0} = ${c * 1.8 + 32} F\u{00B0}`);
+console.log(`${f} F\u{00B0} = ${(f - 32) / 1.8} C\u{00B0}`);
+console.log('\n')
